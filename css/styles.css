@@ -152,7 +152,7 @@ aside img {
     width: 30%;
     padding: 10px;
     height: 500px;
-    margin: 15px;
+    margin: 10px;
     border-radius: 1rem;
     margin-left: 40px;
   }
@@ -181,7 +181,7 @@ aside img {
 
 .column img  {
     height: 370px;
-    width: 450px;
+    width: 350px;
     margin-top: 10px;
     margin-left: 30px;
 } 
@@ -190,6 +190,8 @@ aside img {
     text-align: center;
     margin-bottom: 20px;
 }
+
+/* Footer section */
 
 footer {
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7),
@@ -221,39 +223,81 @@ footer ul a {
     color: white;
 }
 
+/* Contact form */
+
+main {
+    padding: 40px 0;
+}
+
+main h2 {
+    text-align: center;
+    color: #262626;
+}
 
 
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+}
 
-/* copied from w3 */
-input[type=text], select, textarea {
+.contact-form-text {
+    display: block;
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #181f80;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #10315c;
-  }
-  
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    background: #2980b9;
+}
+
+/* About page */
+.vid1 {
+   display: flex;
+   margin: 50px;
+   padding: 50px;
+}
+
+.vid2 {
+    display: flex;
+    margin: 50px;
+    padding: 50px;
+ }
+
+ .vid1 p {
+     padding: 20px;
+     margin: 20px;
+ }
+ .vid2 p {
+    float: right;
+    padding: 20px; 
+}
+
+
 
 
 
