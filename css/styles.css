@@ -2,14 +2,14 @@
     box-sizing: border-box;
   }
   html {
-      height: 300%;
+      height: 180%;
   }
   
 body {
     height: 100%;
     color: cornsilk;
     min-height: 100vh;
-    background: linear-gradient(to right top, #020713, #7f8dc7 );
+    background: linear-gradient(to right top, #02060e, #9da1aa );
     background-repeat: no-repeat;
 }
 
@@ -48,9 +48,7 @@ header a {
 
 nav {
     position: sticky;
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.171),
-    rgba(10, 7, 187, 0.3)
-    );
+    background: #252525;
     box-shadow: 0 15px 6px -6px black;
     width: auto;
     border-radius: 10px; 
@@ -100,7 +98,7 @@ nav ul a:hover {
 
 section {
     font-family: "Poppins", sans-serif;
-    background: rgb(134, 74, 5);
+    background: rgb(183, 186, 199);
     height: 400px;
     border-style: solid;
     border-radius: 10px;
@@ -114,7 +112,7 @@ section a:hover {
 }
 
 article {
-    background: rgb(3, 1, 14);
+    background: #252525;
     height: 500px;
     margin: 3px;
     border-style: solid;
@@ -123,7 +121,6 @@ article {
     text-align: center;
     padding-top: 50px;
 }
-
 
 article a:hover {
     color: rgb(73, 67, 165);
@@ -158,32 +155,32 @@ aside img {
   }
 
 #c1 {
-    background: linear-gradient(to right bottom, rgba(201, 209, 214, 0.7),
-    rgba(1, 1, 8, 0.3)
-    );
+    background: rgb(49,55,80);
+    background: linear-gradient(0deg, rgba(49,55,80,1) 0%,
+ rgba(0,0,0,0.9976365546218487) 93%);
 }
 
 #c2 {
-    background: linear-gradient(to left bottom, rgba(2, 16, 24, 0.123),
-    rgba(172, 182, 160, 0.521)
-    );
+    background: rgb(49,55,80);
+    background: linear-gradient(0deg, rgba(49,55,80,1) 0%,
+ rgba(0,0,0,0.9976365546218487) 93%);
 }
 
 #c3 {
-    background: linear-gradient(to right bottom, rgba(105, 40, 45, 0.7),
-    rgba(231, 230, 230, 0.3)
-    );
+    background: rgb(49,55,80);
+    background: linear-gradient(0deg, rgba(49,55,80,1) 0%,
+ rgba(0,0,0,0.9976365546218487) 93%);
 }
-/* video sample */
+
 .column iframe {
     margin-left: 10px;
 }
 
 .column img  {
     height: 370px;
-    width: 350px;
+    width: 420px;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 70px;
 } 
 
 .column p {
@@ -222,6 +219,7 @@ footer ul a {
     font-size: 35px;
     color: white;
 }
+
 
 /* Contact form */
 
@@ -275,7 +273,12 @@ textarea.contact-form-text{
     background: #2980b9;
 }
 
-/* About page */
+.map iframe {
+    float: right;
+    margin: 30px;
+}
+
+/* About page */ 
 .vid1 {
    display: flex;
    margin: 50px;
